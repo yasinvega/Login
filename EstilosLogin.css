@@ -1,0 +1,146 @@
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        /*background-color: #1a1a1a;*/
+        background-image: url(./Imagenes/fondo2.jpg);
+        background-repeat:no-repeat;
+        background-position: center;
+        margin:0px;
+        padding: 0px;
+    }
+
+
+    /*------------Contendio de la WEB----------*/
+   .card {
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    border-radius: 40px;
+    transition: all .3s;
+    margin:auto;
+    margin-top: 5%;
+   }
+   
+   .card2 {
+    width: 475px;
+    height: 600px;
+    background-color: #1a1a1a;
+    border-radius:20px;
+    transition: all .2s;
+    overflow: hidden;
+    display: flex;
+    text-align: center;
+    margin: auto;
+   }
+   
+   .card2:hover {
+    transform: scale(0.97);
+    border-radius: 20px;
+   }
+   
+   .card:hover {
+    box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+   }
+
+   /*Contenido de "formulario"*/
+   .form{
+    width: 100%;
+   }
+   h3{
+    font-family: 'Neonderthaw', cursive;
+    color: rgb(34,193,195);
+    font-size: 55px;
+    text-align: center;
+    padding: 20px;
+    height: 60px;
+    display: block;
+    flex-direction: column;
+   }
+   label{
+    font-family: 'Neonderthaw', cursive;
+    color: rgb(12, 219, 64);
+    font-size: 30px;
+    margin-top: 50px;
+   }
+   
+  .cuadro_texto{
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
+    padding: 10px;
+    --glow-color: rgb(29, 239, 109);
+    --glow-spread-color: rgba(42, 62, 244, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(72, 205, 136, 0.256);
+    border: .25em solid var(--glow-color);
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+   }
+   /*----------FIN CONTENIDO FORMULARIO */
+   /*BOTON ENVIAR*/
+   .btn_inicio{
+    --glow-color: rgb(29, 239, 109);
+    --glow-spread-color: rgba(42, 62, 244, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(72, 205, 136, 0.256);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    margin-top: 50px;
+    transition: all 0.3s;
+   }
+
+   /*Clases para campos erroneos*/
+   .cuadro_texto_mal{
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
+    padding: 10px;
+    --glow-color: rgb(240, 48, 23);
+    --glow-spread-color: rgba(211, 196, 32, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgba(214, 165, 60, 0.256);
+    border: .25em solid var(--glow-color);
+    color: var(--glow-color);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    transition: all 0.3s;
+   }
+
+   .card_mal {
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(163deg, #ee3b28 0%, #e8bb17 100%);
+    border-radius: 40px;
+    transition: all .3s;
+    margin:auto;
+    margin-top: 5%;
+    transition: all 0.3s;
+   }
